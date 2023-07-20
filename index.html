@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>東京開発マップ</title>
+    <meta
+      name="description"
+      content="東京都で現在建築中の建物を公開しています。"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="back">
+      <header>
+        <div class="inner">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="png/logo.png" alt "logo" width="250"></a
+            >
+          </div>
+          <div class="nav">
+            <div class="nav_item"><a href="#">開発状況</a></div>
+            <div class="nav_item">
+              <a href="./info.html">このサイトについて</a>
+            </div>
+            <div class="nav_item"><a href="#">お問い合わせ</a></div>
+            <div class="menu">
+              <a href="#"><img src="png/menu.png" alt "menu" width="25"></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="area">
+        <div class="setsumei">対応エリア　</div>
+        <div class="area_item"><a href="#">立川市</a></div>
+        <div class="area_item"><a href="#">日野市</a></div>
+      </div>
+
+      <div class="body_inner">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13733.800131458484!2d139.75649668313005!3d35.683272138910276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sja!2sjp!4v1689503443680!5m2!1sja!2sjp"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div id="result">データ取得中...</div>
+      </div>
+    </div>
+  </body>
+</html>
