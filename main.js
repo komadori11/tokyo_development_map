@@ -1,3 +1,4 @@
+// ver.1.1
 const url = "./json/editdata.json"; // JSONファイル名
 let result;
 
